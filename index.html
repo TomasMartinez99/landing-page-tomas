@@ -13,24 +13,28 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!-- JS -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/5d9ff91719.js" crossorigin="anonymous"></script>
     <title>Landing page Tomas</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="contenedor_logo_menu row">
-                <div class="logo col">
+            <!-- Menú de nav -->
+            <div class="row contenedor_logo_menu">
+                <div class="col logo">
                     <img src="img/logo.png" alt="Fondo">
                 </div>
 
-                <div class="menu col">
+                <div class="col menu">
                     <a href="#">Inicio</a>
                     <a href="#">Servicios</a>
                     <a href="#">Contacto</a>
                 </div>
             </div>
 
-            <div class="textos-btn row">
+            <!-- Textos y botones -->
+            <div class="row textos-btn">
                 <div class="col">
                     <h1 class="primera_linea">Bienvenido a mi Website</h1>
                     <h2 class="segunda_linea">Duis aute irure dolor in reprehenderit</h2>
@@ -42,10 +46,69 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="logo">
-            <img src="img/logo.png" alt="Fondo">
+        <div class="svg-hero" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff;"></path>
+            </svg>
         </div>
-
     </header>
+
+    <section class="main">
+        <section class="seccion-1">
+            <div class="row justify-content-center">
+                <!-- Ilustración -->
+                <div class="col-4 contenedor-imagen">
+                    <img src="img/ilustracion1.svg" alt="">
+                </div>
+                <!-- Textos de la ilustración -->
+                <div class="col-4 textos">
+                    <h2 class="titulo left">Título de la sección</h2>
+                    <p class="parrafo">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
+                        molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!
+                    </p>
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-2">
+            <div class="row justify-content-center">
+                <div class="col-6 textos">
+                    <h2>¡Juntos podemos crecer!</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt enim reiciendis
+                        molestias nam tempore. Ullam hic accusantium eligendi ipsam corrupti!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-3">
+            <h2>Nuestros servicios</h2>
+            <!-- Cards -->
+            <div class="row justify-content-center">
+                <div class="col-3 justify-content-center card">
+                    <i class="far fa-clone"></i>
+                    <h3>Titulo Card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="" class="cta">Learn more</a>
+                </div>
+                <div class="col-3 justify-content-center card">
+                    <i class="fas fa-database"></i>
+                    <h3>Titulo Card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="" class="cta">Learn more</a>
+                </div>
+                <div class="col-3 justify-content-center card">
+                    <i class="far fa-object-group"></i>
+                    <h3>Titulo Card</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="" class="cta">Learn more</a>
+                </div>
+            </div>
+        </section>
+    </section>
 </body>
 </html>

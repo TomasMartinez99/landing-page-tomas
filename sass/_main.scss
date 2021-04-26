@@ -1,0 +1,90 @@
+.main {
+    .seccion-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        .contenedor-imagen{
+            margin-right: 40px;
+            img {
+                width: 100%;
+            }
+        }
+        .textos {
+            margin-left: 40px;
+            p {
+                line-height: 30px;
+                margin-bottom: 30px;
+            }
+            a {
+                border: 2px solid #007BFF;
+                background-color: #007BFF;
+                padding: 14px 20px;
+                text-decoration: none;
+                border-radius: 6px;
+                margin-top: 40px;
+                color: #fff;
+                transition: all 0.3s ease;
+                    &:hover {
+                        box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.192);
+                        background-color: #fff;
+                        color: #007BFF;
+                    }
+            }
+        }
+    }
+
+    .seccion-2 {
+        height: 160px;
+        background: linear-gradient(120deg, rgba(147, 149, 251, 0.699) 0%, rgba(67, 189, 36, 0.692) 100%);
+        margin-bottom: 80px;
+        .textos {
+            text-align: center;
+            padding: 30px;
+            color: #fff;
+            h2 {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .seccion-3 {
+        text-align: center;
+            .card {
+                margin: 60px 20px;
+                text-align: center;
+                height: 300px;
+                box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+                transition: transform 0.6s;
+                &:hover {
+                    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+                    transform: scale(1.02);
+                    cursor: pointer;
+                }
+                i {
+                    margin: 16px 20px;
+                    color: #007BFF;
+                    font-size: 50px;
+                }
+                h3 {
+                    font-size: 2rem;
+                    margin: 0px;
+                }
+                p {
+                    margin: 0px;
+                    margin-bottom: 10px;
+                    font-size: 1.25rem;
+                }
+                a {
+                    border: 2px solid #007BFF;
+                    background-color: #007BFF;
+                    padding: 8px 14px;
+                    text-decoration: none;
+                    border-radius: 6px;
+                    color: #fff;
+                    transition: all 0.3s ease;
+                    width: 150px;
+                    margin: 0px auto;
+                }
+            }
+    }
+}
