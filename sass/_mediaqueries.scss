@@ -1,0 +1,56 @@
+@media screen and (max-width:992px) {
+    header {
+        .contenedor_logo_menu {
+			.logo {
+				margin-bottom: 20px;
+				text-align: center;
+            }
+			.menu {
+				text-align: center;
+				a {
+					margin: 0 20px;
+                }
+            }
+            
+        }
+        .textos-btn {
+            margin: 80px 0px;
+            .primera_linea {
+                font-size: 3.5rem;
+                font-weight: bold;
+            }
+            .contenedor-btns {
+                a {
+                    padding: 10px 16px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    header {
+        .textos-btn {
+            margin: 60px 0px;
+            .primera_linea {
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .main {
+        // Textos e Ilustración
+        .seccion-1 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 80px;
+            .contenedor-imagen{
+                margin-bottom: 40px;
+                img {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
