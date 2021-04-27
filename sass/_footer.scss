@@ -1,0 +1,33 @@
+footer {
+    background-color: #3C4045;
+    .social {
+		text-align: center;
+		padding: 20px 0;
+		a {
+			padding: 10px;
+			display: inline-block;
+			margin: 0 20px;
+			width: 50px;
+			font-size: 22px;
+			color: #3C4045;
+			background: #fff;
+			border-radius: 100px;
+            transition: all 0.3s ease;
+			&:hover {
+				text-decoration: none;
+                &.facebook {
+                    background: #3b5998;
+                    color: #fff;
+                }
+                &.twitter {
+                    background: #55acee;
+                    color: #fff;
+                }
+                &.youtube {
+                    background: #cd201f;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
